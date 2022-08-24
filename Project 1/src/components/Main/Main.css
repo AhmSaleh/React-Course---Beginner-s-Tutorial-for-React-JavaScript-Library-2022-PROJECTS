@@ -1,0 +1,28 @@
+.main--container {
+  background-color: #282d35;
+  padding: 57px;
+  color: white;
+}
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main--list {
+  margin-top: 46px;
+}
+.main--list > li {
+  line-height: 19px;
+  padding-block: 10px;
+  max-width: 400px;
+}
+.main--list > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+
+.main--container {
+  background-image: url("../../images/gray-logo.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
